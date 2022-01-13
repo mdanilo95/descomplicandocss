@@ -1,0 +1,90 @@
+.receitas {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: #e5e5e5;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+}
+
+.receita {
+    box-shadow: 0 0 2rem rgb(27, 27, 27);
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+   
+    width: 100vw;
+    max-width: 350px;
+
+
+
+}
+
+.receita__imagem {
+    padding-top: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #646363;
+
+
+}
+
+.receita__titulo {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    color: #646363;
+
+    padding-top: 1.1rem;
+    margin-bottom: 1.3rem;
+
+}
+.receita__conteudo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.receita__paragrafo {
+    text-align: center;
+    color: gray;
+
+    padding-bottom: 1.25rem;
+    
+}
+
+.receita__botao {
+    max-width: 300px;
+    width: 100%;
+
+    background-color: #8d0606;
+    
+    border: none;
+    border-radius: 5px;
+    
+    color: white;
+
+    padding: 1rem 3rem;
+
+    filter: drop-shadow(3px 3px 3px rgb(41, 41, 41))
+
+}
+
+.receita__botao:hover {
+    cursor: pointer;
+    background: #620404;
+    transition: 0.4s;
+    
+}
+
+.receita__botao:active {
+    filter: none;
+}

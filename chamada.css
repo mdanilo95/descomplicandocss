@@ -1,0 +1,37 @@
+.chamada {
+    position: relative;
+}
+
+.chamada__imagem {
+    width: 100%;
+    height: calc(100vh - 93.25px);
+}
+
+.chamada__titulo {
+    color: whitesmoke;
+    font-family: Pacifico;
+    font-weight: 900;
+    font-size: 5rem;
+
+    position: absolute;
+    text-align: center;
+
+    text-shadow: 2px 2px 2px black;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .chamada__titulo {
+        max-width: 280px;
+        font-size: 2rem;
+    }
+
+    .chamada__imagem {
+        padding-top: 1rem;
+        height: 400px;
+    }
+}
